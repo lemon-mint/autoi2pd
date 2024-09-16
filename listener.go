@@ -43,12 +43,11 @@ func (g *autoi2pdListener) Close() error {
 func (g *autoi2pdListener) Addr() net.Addr {
 	return g.kcpln.Addr()
 }
-
 func ListenOptions(options ...Option) (net.Listener, error) {
 	opts := Options{
 		Host:    "127.0.0.1",
 		Port:    7656,
-		PortUDP: 0,
+		PortUDP: 7655,
 
 		Credential: nil,
 		I2PConf:    DefaultI2PServerConf,

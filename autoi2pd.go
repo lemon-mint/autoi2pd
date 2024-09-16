@@ -7,12 +7,12 @@ import (
 	"github.com/eyedeekay/i2pkeys"
 )
 
-var DefaultI2PServerConf = []string{"inbound.length=1", "outbound.length=0",
+var DefaultI2PServerConf = []string{"inbound.length=1", "outbound.length=1",
 	"inbound.lengthVariance=0", "outbound.lengthVariance=0",
 	"inbound.backupQuantity=3", "outbound.backupQuantity=3",
 	"inbound.quantity=5", "outbound.quantity=5"}
 
-var DefaultI2PClientConf = []string{"inbound.length=1", "outbound.length=0",
+var DefaultI2PClientConf = []string{"inbound.length=1", "outbound.length=1",
 	"inbound.lengthVariance=0", "outbound.lengthVariance=0",
 	"inbound.backupQuantity=2", "outbound.backupQuantity=2",
 	"inbound.quantity=3", "outbound.quantity=3"}
