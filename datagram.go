@@ -3,7 +3,7 @@ package autoi2pd
 import (
 	"strconv"
 
-	"github.com/eyedeekay/sam3"
+	"github.com/go-i2p/sam3"
 	"github.com/rs/xid"
 	"github.com/xtaci/kcp-go/v5"
 )

@@ -4,7 +4,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/eyedeekay/sam3"
+	"github.com/go-i2p/sam3"
 	"github.com/xtaci/kcp-go/v5"
 )
 

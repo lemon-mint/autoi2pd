@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"crypto/sha256"
 
-	"github.com/eyedeekay/i2pkeys"
+	"github.com/go-i2p/i2pkeys"
 )
 
 var DefaultI2PServerConf = []string{"inbound.length=1", "outbound.length=1",
